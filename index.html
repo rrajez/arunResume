@@ -3,104 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https:; font-src 'self' https:;">
     <title>Arun Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Arun C</h1>
-        <p>Email:arun.beena012@gmail.com Contact:+91 8754510007</p>
+    <div class="container">
+        <header>
+            <h1>Arun C</h1>
+            <div class="contact-info">
+                <p>Email: arun.beena012@gmail.com</p>
+                <p>Contact: **************</p>
+            </div>
+        </header>
 
-    </header>
-    <hr>
-    <main>
-        <section>
-            <h2>PROFESSIONAL SUMMARY</h2>
-            <p>Results-driven Customer Support Associate with 3 years of experience in technical support, data annotation, and process improvement. Adept at resolving client issues, optimizing machine learning algorithms, and collaborating with cross-functional teams to enhance service efficiency. Passionate about leveraging data analysis and workforce planning to drive business success</p>
+        <main>
+            <section class="professional-summary">
+                <h2>PROFESSIONAL SUMMARY</h2>
+                <p>Results-driven Customer Support Associate with 3 years of experience in technical support, data annotation, and process improvement. Adept at resolving client issues, optimizing machine learning algorithms, and collaborating with cross-functional teams to enhance service efficiency. Passionate about leveraging data analysis and workforce planning to drive business success.</p>
+            </section>
 
-    </section>
-    <section>
-        <h2>PROFESSIONAL EXPERIENCE</h2>
-        <p>Present: <br>
-                  Company Name : Amazon Development Center India <br>
-                    Designation : Data Associate, Alexa Search Operations specialist <br>
-
-                    Date of Joining : May 2024 <br>
+            <section class="experience">
+                <h2>PROFESSIONAL EXPERIENCE</h2>
+                <div class="experience-item">
+                    <h3>Data Associate, Alexa Search Operations Specialist</h3>
+                    <p class="company">Amazon Development Center India</p>
+                    <p class="date">May 2024 - Present</p>
                     <ul>
-                        <li>Enhanced Alexa's search algorithms by analyzing and annotating queries, improving result accuracy. </li>
+                        <li>Enhanced Alexa's search algorithms by analyzing and annotating queries, improving result accuracy.</li>
                         <li>Collaborated with cross-functional teams to address performance issues and refine voice interactions.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>CXQO Data Associate</h3>
+                    <p class="company">Amazon Development Center</p>
+                    <p class="date">May 2022 - April 2024</p>
+                    <ul>
+                        <li>Resolved technical issues in Amazon Go JWO stores (USA & UK), ensuring seamless operations.</li>
+                        <li>Played a key role in expanding Just Walk Out (JWO) technology by implementing solutions in new stores.</li>
+                        <li>Improved machine learning accuracy through precise data annotations and mentoring new hires.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2>SKILLS</h2>
+                <div class="skills-grid">
+                    <span>Technical Support</span>
+                    <span>Data Analysis</span>
+                    <span>Process Improvement</span>
+                    <span>Workforce Planning</span>
+                    <span>Excel & Data Management</span>
+                    <span>Data Annotation & Machine Learning</span>
+                    <span>HTML</span>
+                </div>
+            </section>
+
+            <section class="certifications">
+                <h2>CERTIFICATIONS</h2>
+                <p>Cambridge English A2 Level Certificate in ESOL International</p>
+            </section>
+
+            <section class="education">
+                <h2>EDUCATIONAL QUALIFICATION</h2>
+                <div class="education-item">
+                    <h3>B.E. Electronics and Communication Engineering</h3>
+                    <p>S.A. Engineering College, Chennai | 2021</p>
+                    <p>CGPA: 8.01</p>
+                </div>
+                <div class="education-item">
+                    <h3>HSC</h3>
+                    <p>Don Bosco Matric. Hr. Sec. School, Chennai | 2017</p>
+                    <p>Percentage: 75.6%</p>
+                </div>
+                <div class="education-item">
+                    <h3>SSLC</h3>
+                    <p>Don Bosco Matric. Hr. Sec. School, Chennai | 2015</p>
+                    <p>Percentage: 87.6%</p>
+                </div>
+            </section>
+
+            <section class="achievements">
+                <h2>ACHIEVEMENTS</h2>
+                <ul>
+                    <li>Football Zone Winner (2015, 2016) | Handball District Winner (2013–2014)</li>
+                    <li>Prime & Pinnacle Awards – Excellence in Alexa Search Operations</li>
+                    <li>Star Player Award (2023) – Recognized for exceptional performance in CXQO</li>
                 </ul>
-                
-              </p>
+            </section>
 
-    </section>
-    <section>
-        Previous: <br>
-Company Name : Amazon Development Center <br>
-Designation : CXQO Data Associate <br>
-Date of Joining : May 2022 to April 2024 <br>
-<ul>
-    <li> Resolved technical issues in Amazon Go JWO stores (USA & UK), ensuring seamless operations.</li>
-    <li>Played a key role in expanding Just Walk Out (JWO) technology by implementing solutions in new stores. </li>
-    <li>Improved machine learning accuracy through precise data annotations and mentoring new hires. </li>
-</ul>
+            <section class="projects">
+                <h2>PROJECTS</h2>
+                <div class="project-item">
+                    <p>Helmet-Controlled Home Appliances Using MEMS & Raspberry Pico for Handicapped Users</p>
+                </div>
+            </section>
+        </main>
 
-    </section>
-    <hr>
-    <section>
-        <h2>SKILLS</h2>
-        <P><ul><li>Technical Support </li>
-        <li>Data Analysis</li>
-        <li> Process Improvement</li>
-        <li>Workforce Planning </li>
-        <li> Excel & Data Management</li>
-        <li>Data Annotation & Machine Learning</li>
-        <li>HTML</li>
-    
-    
-    </ul>
-</P>
-
-
-    </section>
-    <hr>
-    <section>
-        <h2>CERTIFICATIONS</h2>
-        <p>Cambridge English A2 Level Certificate in ESOL International</p>
-    </section>
-    <hr>
-    <section>
-        <h2>EDUCATIONAL QUALIFICATION</h2>
-        <p>B.E. Electronics and Communication Engineering | 2021 <br>
-        S.A. Engineering College, Chennai <br>
-Graduated with 8.01 CGPA <br>
-HSC | 2017  <br>
-Don Bosco Matric. Hr. Sec. School, Chennai  <br>
-Completed with 75.6% <br>
-SSLC | 2015 <br>
-Don Bosco Matric. Hr. Sec. School, Chennai <br>
-Completed with 87.6%  <br></p>
-
-    </section>
-    <hr>
-    <section>
-        <h2>ACHIEVEMENTS</h2>
-        <p><ul>
-            <li>Football Zone Winner (2015, 2016) | Handball District Winner (2013–2014)</li>
-            <li>Prime & Pinnacle Awards – Excellence in Alexa Search Operations.</li>
-            <li> Star Player Award (2023) – Recognized for exceptional performance in CXQO.</li>
-        </ul>
-</p>
-    </section>
-    <hr>
-    <section>
-        <h2>PROJECTS</h2>
-        <p>Helmet-Controlled Home Appliances Using MEMS & Raspberry Pico for Handicapped Users</p>
-    </section>
-    <hr>
-   
-</main>
-    <footer> <a target="_blank" href="https://www.linkedin.com/in/arun-c-95087a301/">LinkedIn</a> <p>Email:arun.beena012@gmail.com Contact:+91 8754510007</p> </footer>
- 
+        <footer>
+            <a href="https://www.linkedin.com/in/arun-c-95087a301/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <p>Email: arun.beena012@gmail.com</p>
+            <p>Contact: **************</p>
+        </footer>
+    </div>
 </body>
 </html>
